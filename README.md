@@ -34,5 +34,12 @@ Here in this project I will use Humble Hawksbill
 ####### Setup Invironment #######
 
 1. Go to gedit ~/.bashrc
-	add source /opt/ros/humble/setup.bash to at the end of .bashrc
+	add source /opt/ros/humble/setup.bash at the end of .bashrc
+
+####### Setup ROS2 build tool #######
+
+1. sudo apt install python3-colcon-common-extensions
+2. Go to gedit ~/.bashrc 
+	add source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash at the end of .bashrc
+
 
